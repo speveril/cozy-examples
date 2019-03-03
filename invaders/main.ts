@@ -25,7 +25,7 @@ export function load() {
 export function start() {
     Cozy.setBackground('#303040');
 
-    plane = <Cozy.RenderPlane>Cozy.addPlane(Cozy.RenderPlane, {
+    plane = Cozy.addPlane(Cozy.RenderPlane, {
         renderable: true
     });
 
