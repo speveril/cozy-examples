@@ -8,4 +8,4 @@ To run these games, you will have to get the Cozy engine (see https://github.com
 
 Enjoy!
 
-**Note that the Cozy Engine and its example games are effectively in a pre-alpha state right now. They may or may as well as we'd like.**
+**Note that the Cozy Engine and its example games are effectively in a pre-alpha state right now. They may not work as well as we'd like.**
