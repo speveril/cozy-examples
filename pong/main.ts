@@ -149,7 +149,7 @@ export function load() {
 export function start() {
     Cozy.setBackground('#223322');
 
-    renderPlane = <Cozy.RenderPlane>Cozy.addPlane(Cozy.RenderPlane);
+    renderPlane = Cozy.addPlane(Cozy.RenderPlane);
     stage = renderPlane.addRenderLayer();
 
     ball = new Ball({
@@ -174,7 +174,7 @@ export function start() {
 
     stage.add(player2);
 
-    uiPlane = <Cozy.UiPlane>Cozy.addPlane(Cozy.UiPlane);
+    uiPlane = Cozy.addPlane(Cozy.UiPlane);
 
     player1.scoreDisplay = new ScoreComponent({ side: 'left', player: player1 });
     uiPlane.addChild(player1.scoreDisplay);
