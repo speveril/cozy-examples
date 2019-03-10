@@ -31,7 +31,6 @@ export class Alien extends Cozy.Sprite {
 
     update(dt:number) {
         this.adjustPosition(this.speed * dt * this.heading, 0);
-        console.log(this.heading, this.position.x);
 
         if (this.heading === 1 && this.position.x > this.bounds.right) {
             this.heading = -1;

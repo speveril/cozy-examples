@@ -133,7 +133,6 @@ function resetGame() {
             widest = ln.length;
         }
     }
-    console.log(widest);
 
     aliens = [];
 
